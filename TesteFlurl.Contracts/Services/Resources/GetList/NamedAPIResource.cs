@@ -1,6 +1,6 @@
-﻿namespace TesteFlurl.Models
+﻿namespace TesteFlurl.Contracts.Services.Resources.GetList
 {
-    class NamedAPIResource
+    public class NamedAPIResource
     {
         public string Name { get; set; }
         public string Url { get; set; }
